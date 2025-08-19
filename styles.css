@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #222;
+  color: #f9f9f9;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+ul,
+ol {
+  margin: 0 0 1em 2em;
+  padding: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding: 0.5em 2em 1em;
+  margin: 1em auto;
+  max-width: 800px;
+  background: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+section img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.5);
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #005fa3;
+}
